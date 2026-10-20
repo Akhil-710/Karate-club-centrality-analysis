@@ -22,12 +22,7 @@ A group project that applies the **core centrality metrics of Social Network Ana
 * [Fundamentals of Social Network Analysis (SNA): Kaggle](https://www.kaggle.com/code/mexwell/fundamentals-of-social-network-analysis-sna)
 * [Zachary's Karate Club: Network Repository](https://networkrepository.com/soc-karate.php)
 
-## Using a Different (Social Media) Dataset
-The centrality code works on **any network**, not just the Karate Club. In the first code cell set:
-```python
-EDGE_FILE = "facebook_combined.txt"   # any edge list: one "node1 node2" pair per line
-```
-Free social-network datasets: [SNAP (Stanford)](https://snap.stanford.edu/data/) e.g. *ego-Facebook*, [Network Repository](https://networkrepository.com/), [Kaggle Datasets](https://www.kaggle.com/datasets). Everything else (metrics, graphs, charts) runs unchanged. For networks over 2,000 nodes betweenness is sampled so it finishes quickly.
+
 
 ## What the Notebook Does
 1. Loads the graph (Karate Club by default, or your own edge list) and prints basic info (nodes, edges, density, clustering).
@@ -64,32 +59,29 @@ Free social-network datasets: [SNAP (Stanford)](https://snap.stanford.edu/data/)
 | 2x2 overview | `figures/7_overview_2x2.png` |
 | Heatmap | `figures/8_heatmap.png` |
 
-![Betweenness](figures/3_betweenness_network.png)
+
 
 ## Repository Structure
-```
-.
+
 ├── TEAM_PROJECT.ipynb       # main notebook (all code + explanations)
 ├── centrality_results.csv   # centrality scores for all 34 nodes
 ├── figures/                 # saved graphs (PNG)
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-```
 
 ## How to Run
-```bash
+bash
 git clone <YOUR-REPO-URL>
 cd <repo-folder>
 pip install -r requirements.txt
 jupyter notebook TEAM_PROJECT.ipynb
-```
-Then choose **Kernel → Restart & Run All**. Graphs are saved automatically in `figures/`.
+
+Then choose **Kernel → Restart & Run All**. Graphs are saved automatically in figures/`.
 
 ## Tech Stack
 Python 3 · NetworkX · Pandas · Matplotlib · SciPy · Jupyter Notebook
 
 
 
-## License
-For academic / educational use.
+
