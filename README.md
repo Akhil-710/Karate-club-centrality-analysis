@@ -63,12 +63,11 @@ A group project that applies the **core centrality metrics of Social Network Ana
 
 ## Repository Structure
 
-├── TEAM_PROJECT.ipynb       # main notebook (all code + explanations)
-├── centrality_results.csv   # centrality scores for all 34 nodes
-├── figures/                 # saved graphs (PNG)
-├── requirements.txt
+── TEAM_PROJECT.ipynb       # main notebook (all code + explanations)
+── centrality_results.csv   # centrality scores for all 34 nodes
+── figures/                 # saved graphs (PNG)├── requirements.txt
 ├── .gitignore
-└── README.md
+── README.md
 
 ## How to Run
 bash
