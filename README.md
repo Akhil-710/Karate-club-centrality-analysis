@@ -60,15 +60,18 @@ A group project that applies the **core centrality metrics of Social Network Ana
 | Heatmap | `figures/8_heatmap.png` |
 
 
+## Repository Structure
 
+```text
 TEAM_PROJECT/
 │
-├── TEAM_PROJECT.ipynb      # Main notebook (all code + explanations)
-├── centrality_results.csv  # Centrality scores for all 34 nodes
-├── figures/                # Saved graphs (PNG)
-├── requirements.txt        # Required Python libraries
-├── .gitignore              # Files to exclude from Git
-└── README.md               # Project documentation
+├── TEAM_PROJECT.ipynb
+├── centrality_results.csv
+├── figures/
+├── requirements.txt
+├── .gitignore
+└── README.md
+```
 
 ## How to Run
 bash
