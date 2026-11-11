@@ -85,6 +85,11 @@ Then choose **Kernel → Restart & Run All**. Graphs are saved automatically in 
 ## Tech Stack
 Python 3 · NetworkX · Pandas · Matplotlib · SciPy · Jupyter Notebook
 
+##Team Members(Team Name-Subway Surfers)
+A S AKHIL(23BCB7073)
+Jidiga Charan Reddy(23BCB7120)
+Pothuraju Vyshrawan(23BCB7129)
+
 
 
 
